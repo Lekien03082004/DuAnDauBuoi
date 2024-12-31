@@ -1,0 +1,71 @@
+.container_product{
+    display: flex;
+    border-radius: 5px;
+}
+.container_product:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+}
+img{
+    width: 150px;
+    height: auto;
+    margin-left: 100px;
+}
+.contentProduct_cart{
+    margin-left: 200px;
+}
+.quantity{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn_quatity{
+    border: none;
+    background-color: rgb(211, 200, 200);
+    width: 30px;
+    height: 30px;
+}
+.btn_remove{
+    border: none;
+    background-color: rgb(247, 5, 5);
+    padding: 5px 20px;
+    color: white;
+}
+.btn_buy{
+    border: none;
+    background-color: rgb(236, 94, 50);
+    padding: 5px 20px;
+    color: white;
+}
+.container_buy{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .progressBar {
+    width: 100%;
+    height: 5px;
+    background-color: #4caf50;
+    animation: progressBarAnimation 3s linear forwards;
+  }
+  
+  @keyframes progressBarAnimation {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
+  }
+  
