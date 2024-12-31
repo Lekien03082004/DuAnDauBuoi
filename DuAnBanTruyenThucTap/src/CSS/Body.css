@@ -84,6 +84,7 @@ s {
   float: left;
   width: 20%;
   height: 10%;
+  margin: 0;
 }
 @keyframes slider {
   0% {
